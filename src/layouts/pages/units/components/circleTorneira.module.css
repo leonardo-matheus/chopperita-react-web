@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to top, #026942, #1a6d4d) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.bloco {
+  padding: 6px;
+}
+
+.icon {
+  width: 27px;
+  padding: 2px 2px 2px 2px;
+  margin: 0 auto;
+  display: flex;
+  color: #fafafa;
+}
+
+.alerta {
+  width: 305px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: #fafafa;
+  font-weight: bold;
+  background-color: #FF9100;
+  border-radius: 8px;
+
+}
+
+.alertaTexto {
+  font-size: 14px;
+  padding-left: 4px;
+}
+
+
+.painel {
+  margin-top: 15px;
+  width: 305px;
+  height: 100%px;
+  background-color: #fafafa;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.infoItem {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+
+.infoItemTxt {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #206C5D;
+  font-style: normal;
+  display: flex;
+}
+
+.infoItemTxtCategorias {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #206C5D;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.imagem {
+  margin: 3px;
+  width: 144px;
+  height: 263px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.circulos {
+  display: flex;
+  align-items: center;
+}
+
+
+.corCerveja {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.5px solid #0aa073;
+  margin-right: 5px;
+  position: relative;
+}
+
+.teor {
+  padding-left: 10px;
+}
+
+.cat-itens {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight:600;
+  color: #206C5D;
+  padding: 2px;
+}

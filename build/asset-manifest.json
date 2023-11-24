@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abf158ea.css",
+    "main.js": "/static/js/main.84330380.js",
+    "static/media/product-1-min.jpg": "/static/media/product-1-min.a4c2bc133076d3b7c517.jpg",
+    "static/media/product-2-min.jpg": "/static/media/product-2-min.0ef21c3599693a69cd7e.jpg",
+    "static/media/product-3-min.jpg": "/static/media/product-3-min.c4eb341f49bb541a8a8e.jpg",
+    "static/media/bruce-mars.jpg": "/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
+    "static/media/team-3.jpg": "/static/media/team-3.0ef0be95e6850814c79e.jpg",
+    "static/media/logo-slack.svg": "/static/media/logo-slack.d8feb9c5b2a92c377e8c5b7a10faabc9.svg",
+    "static/media/logo-spotify.svg": "/static/media/logo-spotify.3f055cde07c024fb2b73063b46416f1b.svg",
+    "static/media/logo-atlassian.svg": "/static/media/logo-atlassian.d92c4f81bb3efbf288b3ef71ce2fbfb0.svg",
+    "static/media/logo-asana.svg": "/static/media/logo-asana.5c9ced4f9006cfb2d4c10f905cf6d310.svg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.abf158ea.css",
+    "static/js/main.84330380.js"
+  ]
+}

@@ -1,0 +1,18 @@
+.circle {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #206C5D;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.circleFilled {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #206C5D;
+  background-color: #206C5D;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+}

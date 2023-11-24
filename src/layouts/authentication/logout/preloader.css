@@ -1,0 +1,33 @@
+@keyframes load{
+    0%{
+        box-shadow: 0 0 #FFBF00 inset;
+    }
+    100%{
+        box-shadow: 0 -70px #FFBF00 inset;
+    }
+}
+
+#preloader{
+    background-color: #26806E;
+    width: auto;
+    height: 100vh;
+    position: relative;
+
+}
+
+#loader{
+    transform: 
+      perspective(140px) rotateX(-45deg);
+
+    width: 32px;
+    height: 72px;
+    border: 2px solid #E5E5E5;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    
+    animation: 
+        load 0.6s linear infinite alternate;
+}

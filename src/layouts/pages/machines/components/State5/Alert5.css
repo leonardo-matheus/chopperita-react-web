@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top, #026942, #1a6d4d) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    background: linear-gradient(to top, #026942, #1E6759) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+}
+
+.bloco {
+    padding: 6px;
+}
+
+.icon {
+    width: 27px;
+    padding: 2px 2px 2px 2px;
+    margin: 0 auto;
+    display: flex;
+    color: #000000;
+}
+
+.alerterror {
+    width: 305px;
+    height: 38px;
+    padding-left: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #FC4A4A;
+    border-radius: 8px;
+    padding-left: 14px;
+
+}
+
+.alertaTextoOk {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+
+.error {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.errorTxt {
+    font-weight: bolder;
+    color: #000000;
+    font-style: bolder;
+    display: flex;
+    font-size: 22px;
+}
+
+.erroTxtMsg {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    display: flex;
+    font-size: 16px;
+}
+
+
+.painel5 {
+    margin-top: 15px;
+    width: 305px;
+    height: 269px;
+    background-color: #FFBC00;
+    border: 3px solid #ffffff;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconError {
+    width: 80px;
+    display: flex;
+}
+
+.obrigado {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#obrigadoLogo {
+    margin-top: 5px;
+    width: 170px;
+    display: flex;
+}
+
+.obrigadoTexto {
+    font-size: 14px;
+    font-weight: bold;
+    color: #206C5D;
+    font-style: bolder;
+    display: flex;
+    font-size: 32px;
+}
+
+.obrigadoAviso {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #206C5D;
+    margin-bottom: 20px;
+}

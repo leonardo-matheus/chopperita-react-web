@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top, #026942, #1a6d4d) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.bloco {
+    padding: 6px;
+}
+
+.icon {
+    width: 27px;
+    padding: 2px 2px 2px 2px;
+    margin: 0 auto;
+    display: flex;
+    color: #0a0a0a;
+}
+
+.alertaok {
+    width: 305px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #0a0a0a;
+    font-weight: bold;
+    background-color: #36E82A;
+    border-radius: 8px;
+
+}
+
+.alertaTextoOk {
+    font-size: 18px;
+    padding-left: 4px;
+}
+
+
+.painel3 {
+    margin-top: 15px;
+    width: 305px;
+    height: 269px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.painelInfo {
+    width: 100%;
+    height: 77px;
+    background-color: #fafafa;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.painelInfoTotal {
+    width: 100%;
+    height: 77px;
+    background-color: #fafafa;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.painelInfoImg {
+    width: 53px;
+    height: 65px;
+    background-color: #026942;
+    margin: 6px;
+    border-radius: 8px;
+}
+
+.painelInfoImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.painelInfoTxt {
+    width: 168px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.infoSaldo {
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.infoSaldoValor {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    color: #206C5D;
+    padding-left: 15px;
+    padding-right: 3px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.infoSaldoValorTotal {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    color: #206C5D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 3px;
+}
+
+#totalVolume {
+    width: 45%;
+}
+
+#totalPreco {
+    width: 50%;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.infoItem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.infoItemTxt {
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #206C5D;
+    font-style: normal;
+    display: flex;
+}
+
+.infoSaldoTxt {
+    padding-left: 5px;
+    font-family: 'Roboto Bold', 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #206C5D;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.painelInfoTotal {
+    align-items: space-around;
+}
+
+.infoItemTxtCategorias {
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #206C5D;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imagem {
+    margin: 3px;
+    width: 144px;
+    height: 263px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+.reconhecido {
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+}
+
+.authSucess {
+    width: 98%;
+    height: 100%;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 11px;
+}
+
+.authSucessMsg {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    border-radius: 8px;
+    background-color: #36E82A;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.authSucessMsgAlerta {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+#authSucessMsgAlertaInfo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+
+
+.authSucessSaldo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#authCheckOk{
+    margin-right: 10px;
+    width: 38.91px;
+    color: #000;
+    fill: #000;
+}
+
+.authSucessInfo {
+    width: 100%;
+    margin-left: 8px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex start;
+}
